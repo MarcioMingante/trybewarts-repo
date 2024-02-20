@@ -6,21 +6,19 @@
 
 .header {
   background-color: rgb(50, 167, 145);
-  padding: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
   display: flex;
-}
-
-.header-container {
-  background-color: rgb(50, 167, 145);
-  margin: 0 10px 0 10px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-around;
+  flex: auto;
 }
 
 .header img {
   width: 70px;
+}
+
+.header h1 {
+  color: white;
 }
 
 .trybewarts-login {
@@ -29,12 +27,15 @@
 }
 
 .trybewarts-login input {
+  width: 180px;
   border-radius: 10px;
   box-shadow: 0 0 5px black;
   border: 0;
 }
 
 .trybewarts-login button {
+  width: 80px;
+  margin-left: 15px;
   border-radius: 10px;
   border: 0;
 }
