@@ -4,6 +4,10 @@
   font-family: Inknut Antiqua, serif;
 }
 
+body {
+  background-color: rgb(236, 236, 236);
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   padding: 3px 0;
@@ -52,17 +56,35 @@
   align-items: center;
 }
 
-.evaluation-form-container input {
-  width: 40%;
-  border-radius: 10px;
-  border: 0;
-  box-shadow: 0 0 5px black;
-}
-
 .main img {
   height: 500px;
 }
 
 .evaluation-form-container {
   text-align: center;
+}
+
+.evaluation-form-container input {
+  width: 40%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0 0 5px black;
+}
+
+.evaluation-form-container select {
+  width: 32.5%;
+  background-color: white;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0 0 5px black;
+}
+
+.evaluation-form-radio {
+  text-align: center;
+}
+
+.main-radio {
+  display: flex;
+  flex-direction: column;
 }
