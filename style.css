@@ -60,6 +60,10 @@ body {
   height: 500px;
 }
 
+.img-container {
+  margin: auto;
+}
+
 .evaluation-form-container {
   text-align: center;
 }
@@ -90,11 +94,17 @@ body {
 
 .selectors {
   display: flex;
+  align-items: center;
+  padding: 10px 0;
   margin-left: 30px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
 }
 
-/* .evaluation-form-checkbox-sub {
+.stisfaction-grade {
+  font-size: 14px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-} */
+  align-items: center;
+  gap: 8px;
+  margin-left: 15px;
+}
