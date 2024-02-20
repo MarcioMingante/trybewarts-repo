@@ -1,12 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Inknut Antiqua", serif;
+  font-family: Inknut Antiqua, serif;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
-  padding: 5px 0 5px 0;
+  padding: 3px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
