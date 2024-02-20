@@ -1,6 +1,6 @@
 // Capturas
 
-const email = document.getElementById('input-email');
+const email = document.getElementById('input-email-header');
 const password = document.getElementById('input-password');
 const loginBtn = document.getElementById('btn-login');
 
