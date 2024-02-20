@@ -13,7 +13,20 @@
 
 <body>
   <header class="header">
-    <img class="trybewarts-header-logo" src="./images/trybewarts-header-logo.svg" alt="trybewarts log">
+    <div class="header-container">
+      <img class="trybewarts-header-logo" src="./images/trybewarts-header-logo.svg" alt="trybewarts log">
+
+      <form class="trybewarts-login" action="">
+        <label for="input-email"></label>
+        <input type="email" name="email" placeholder="Email" id="input-email">
+  
+        <label for="input-password"></label>
+        <input type="password" name="password" placeholder="Senha" id="input-password">
+  
+        <button id="btn-login">Entrar</button>
+  
+      </form>
+    </div>
   </header>
 </body>
 <script src="./script.js"></script>

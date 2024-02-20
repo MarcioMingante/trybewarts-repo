@@ -5,6 +5,36 @@
 }
 
 .header {
-  display: flex;
   background-color: rgb(50, 167, 145);
+  padding: 10px 0 10px 0;
+  display: flex;
+}
+
+.header-container {
+  background-color: rgb(50, 167, 145);
+  margin: 0 10px 0 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+  gap: 5px;
+}
+
+.trybewarts-login input {
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  border: 0;
+}
+
+.trybewarts-login button {
+  border-radius: 10px;
+  border: 0;
 }
