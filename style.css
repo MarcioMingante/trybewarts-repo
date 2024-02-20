@@ -45,11 +45,24 @@
 }
 
 .main form {
+  gap: 3px;
   width: 675px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.evaluation-form-container input {
+  width: 40%;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0 0 5px black;
 }
 
 .main img {
   height: 500px;
+}
+
+.evaluation-form-container {
+  text-align: center;
 }
