@@ -39,3 +39,12 @@
   border-radius: 10px;
   border: 0;
 }
+
+.main {
+  display: flex;
+}
+
+.main form {
+  width: 675px;
+  display: flex;
+}
