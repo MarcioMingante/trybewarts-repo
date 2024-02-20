@@ -81,10 +81,20 @@ body {
 }
 
 .evaluation-form-radio {
-  text-align: center;
+  width: 50%;
 }
 
-.main-radio {
-  display: flex;
-  flex-direction: column;
+.evaluation-form-checkbox {
+  width: 50%;
 }
+
+.selectors {
+  display: flex;
+  margin-left: 30px;
+}
+
+/* .evaluation-form-checkbox-sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+} */

@@ -50,14 +50,56 @@
         </select>
       </div>
 
-      <div class="evaluation-form-radio">
-        <label for="family" id="label-family">Qual sua família?</label>
-        <div class="main-radio">
-          <input type="radio" name="family" value="Frontend">Família Frontend
-          <input type="radio" name="family" value="Backend">Família Backend
-          <input type="radio" name="family" value="FullStack">Família FullStack
-        </div>  
+      <div class="selectors">
+        <section class="evaluation-form-radio">
+          <label class="form-label" for="" id="label-family">Qual sua família?</label>
+          <div class="main-radio">
+            <input type="radio" name="family" id="radio1" value="Frontend">
+            <label for="radio1">Família Frontend</label>
+            
+            <br>
+
+            <input type="radio" name="family" id="radio2" value="Backend">
+            <label for="radio2">Família Backend</label>
+            
+            <br>
+
+            <input type="radio" name="family" id="radio3" value="FullStack">
+            <label for="radio3">Família FullStack</label>
+          </div>  
+        </section>
+        
+        <section class="evaluation-form-checkbox">
+          <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div class="evaluation-form-checkbox-sub">
+            <div>
+              <input class="subject" type="checkbox" name="" value="Comunicação" id="checkbox1">
+              <label for="checkbox1">Comunicação</label>
+
+              <input class="subject" type="checkbox" name="" value="Trabalho em equipe" id="checkbox2">
+              <label for="checkbox2">Trabalho conjunto</label>
+            </div>
+
+            <div>
+              <input class="subject" type="checkbox" name="" value="Negociação" id="checkbox3">
+              <label for="checkbox3">Negociação</label>
+
+              <input class="subject" type="checkbox" name="" value="Escuta ativa" id="checkbox4">
+              <label for="checkbox4">Escuta ativa</label>
+            </div>
+
+            <div>
+              <input class="subject" type="checkbox" name="" value="Métodos de array" id="checkbox5">
+              <label for="checkbox5">Métodos de array</label>
+
+              <input class="subject" type="checkbox" name="" value="Jest" id="checkbox6">
+              <label for="checkbox6">Jest</label>
+            </div>
+          </div>
+        </section>
       </div>
+
+      
     </form>
 
     <img src="./images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
