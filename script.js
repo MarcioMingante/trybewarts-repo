@@ -3,6 +3,8 @@
 const email = document.getElementById('input-email-header');
 const password = document.getElementById('input-password');
 const loginBtn = document.getElementById('btn-login');
+const agreementCheckbox = document.getElementById('agreement');
+const submitBtn = document.getElementById('submit-btn');
 
 // Funções
 
@@ -16,6 +18,18 @@ const checkLoginData = () => {
   });
 };
 
+const enableSubmitBtn = () => {
+  agreementCheckbox.addEventListener('click', () => {
+    if (agreementCheckbox.checked) {
+      submitBtn.disabled = false;
+    } else {
+      submitBtn.disabled = true;
+    }
+  });
+};
+
 // chamados
 
 checkLoginData();
+
+enableSubmitBtn();
