@@ -111,7 +111,7 @@ body {
 
 .feedback-container {
   background-color: blue;
-  height: 40vh;
+  height: 28vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,7 +120,9 @@ body {
 .feedback-container label {
   font-size: 15px;
   width: 93%;
-  margin-top: 5px;
+  margin: 12px 0;
+  line-height: 20px;
+
 }
 
 .feedback-container textarea {
