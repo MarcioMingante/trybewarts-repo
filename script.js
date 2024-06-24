@@ -5,6 +5,8 @@ const password = document.getElementById('input-password');
 const loginBtn = document.getElementById('btn-login');
 const agreementCheckbox = document.getElementById('agreement');
 const submitBtn = document.getElementById('submit-btn');
+const textArea = document.getElementById('feedback');
+const charactersInput = document.getElementById('counter');
 
 // Funções
 
@@ -28,8 +30,20 @@ const enableSubmitBtn = () => {
   });
 };
 
+const characterCounter = () => {
+  textArea.addEventListener('keyup', () => {
+    const characters = textArea.value.split('');
+    const remaining = `${500 - characters.length}`;
+    charactersInput.innerText = remaining;
+  });
+};
+
 // chamados
 
 checkLoginData();
 
 enableSubmitBtn();
+
+characterCounter();
+
+// Testes

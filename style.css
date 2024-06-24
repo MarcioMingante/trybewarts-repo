@@ -143,10 +143,10 @@ footer {
 
 }
 
-.feedback-container textarea {
+.feedback-textarea {
   resize: none;
-  width: 90%;
-  height: 50%;
+  width: 70%;
+  height: 100%;
   padding: 0 10px;
   border-radius: 8px;
   border: 0;
@@ -169,4 +169,19 @@ footer {
   border-radius: 5px;
   border: 0;
   box-shadow: 0 0 5px black;
+}
+
+.textarea-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%;
+}
+
+.character-counter {
+  resize: none;
+  padding-left: 5px;
+  width: 10%;
+  height: 50%;
 }
